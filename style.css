@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.body {
+    background-color: white;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.btn {
+    text-transform: uppercase;
+    margin: 45px;
+    padding: 15px;
+    width: 150px;
+    font-size: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.red {
+    color: red;
+    background-color: white;
+    transition: all 0.25s ease-in-out;
+}
+.red:hover {
+    color: white;
+    background-color: red;
+}
+
+.green {
+    color: green;
+    background-color: white;
+    transition: all 0.25s ease-in-out;
+}
+.green:hover {
+    color: white;
+    background-color: green;
+}
+
+.blue {
+    color: blue;
+    background-color: white;
+    transition: all 0.25s ease-in-out;
+}
+.blue:hover {
+    color: white;
+    background-color: blue;
+}
